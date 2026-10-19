@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 
-def calcular_valot_total(df: pd.DataFrame) -> pd.DataFrame:
+
+def calcular_valor_total(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df['Valor_Total'] = df['Quantidade'] * df['Preco_Unitario']
     return df

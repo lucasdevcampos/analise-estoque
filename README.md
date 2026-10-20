@@ -1,5 +1,9 @@
 # Análise ABC de Estoque
 
+[![Tests](https://github.com/lucasdevcampos/analise-estoque/actions/workflows/tests.yml/badge.svg)]
+
+
+
 Script em Python que lê uma planilha `.xlsx` de estoque, calcula valor total
 por produto, classifica status por quantidade mínima, aplica a Curva ABC
 (Pareto) e exporta uma nova planilha com os resultados.
